@@ -1,0 +1,83 @@
+html, body {
+  scroll-behavior: smooth;
+  margin: 0;
+  box-size: box-border;
+  max-width: 100%;
+  overflow-x: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  
+}
+
+:root {
+  --color-primary: #0073cc;
+  --color-dark: #003a98;
+  --color-light: #4789fa; 
+  --color-bright: rgb(101, 167, 255);
+  --color-brighter: rgb(121, 187, 255);
+  --color-brightest: rgb(181, 217, 255);
+  --color-green: rgb(130, 255, 81);
+
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgb(0, 0, 0);
+  background-color:rgb(255,255,255);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+// Media queries to scale components thru rem
+/* -------------- Responsive Media Queries (4k) ----------------*/
+
+@media screen and (min-width: 2564px) {
+  :root {
+    font-size: 20px;
+  }
+}
+
+/* -------------- Responsive Media Queries (1440) ----------------*/
+
+@media screen and (min-width: 1924px) {
+  :root {
+    font-size: 18px;
+  }
+}
+
+/* -------------- Responsive Media Queries (1080) ----------------*/
+
+@media screen and (max-width: 1284px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+/* -------------- Responsive Media Queries (720) ----------------*/
+
+@media screen and (max-width: 1028px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+/* -------------- Responsive Media Queries (Mobile-Large) ----------------*/
+
+@media screen and (max-width: 800px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+/* -------------- Responsive Media Queries (Mobile-Small) ----------------*/
+
+@media screen and (max-width: 600px) {
+  :root {
+    font-size: 8px;
+  }
+}
