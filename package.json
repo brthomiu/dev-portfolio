@@ -1,8 +1,9 @@
 {
-  "name": "typescript2023part1",
+  "name": "dev-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://brthomiu.github.io/dev-portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
