@@ -284,6 +284,12 @@
   font-size: 4rem;
   color: var(--color-dark);
 }
+.about {
+  margin-top: 18rem;
+}
+.header--right {
+  display: none;
+}
 
 
 
