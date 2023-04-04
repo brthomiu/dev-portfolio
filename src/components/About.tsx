@@ -62,15 +62,15 @@ const About = () => {
                 <br></br>What started as scrawling and screaming with MS-Paint
                 and Sound Recorder would eventually lead me to explore software
                 like Photoshop, After Effects, and FL-Studio, and blossom into a
-                lifelong passion for digital content creation.<br></br>
+                lifelong passion for technology.<br></br>
                 <br></br>
-                In 2020, I endeavored to take my obsession further, and plunged
+                In 2020, I endeavored to take my passion further, and plunged
                 into the world of computer science, programming languages, and
                 web development.
                 <br></br>
                 <br></br>My primary focus is full-stack web development with
                 JavaScript, TypeScript, Node, and React, but I've also written
-                code with Python and Java and explored other JavaScript
+                code with Python and Java and played with other
                 frameworks like Vue and Svelte.
                 <br></br> <br></br>
                 My journey so far has spanned thousands of hours, hundreds of
