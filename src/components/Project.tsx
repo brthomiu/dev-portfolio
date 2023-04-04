@@ -13,7 +13,7 @@ const Project = (props: ProjectType) => {
       <Carousel images={props.images} />
       <div className="project--content">
         <p className="project--description">{props.description}</p>
-        <TechCloud technologies={props.technologies} />
+        <TechCloud key={props.name} technologies={props.technologies} />
         <div className="project--links">
           <a href={props.repoLink} target="_blank" rel="noreferrer">
             <button className="project--link">GitHub</button>

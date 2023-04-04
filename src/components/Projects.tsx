@@ -11,6 +11,7 @@ const Projects = () => {
       {projectData.map((project: ProjectType) => {
         return (
           <Project
+            key={project.name}
             name={project.name}
             images={project.images}
             technologies={project.technologies}

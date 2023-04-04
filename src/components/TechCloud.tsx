@@ -5,7 +5,7 @@ const TechCloud = (props: TechCloudType) => {
     return (
       <ul className="techCloud">
         {props.technologies.map((tech: string) => {
-          return <li className="techCloud--item">{tech}</li>;
+          return <li key={tech} className="techCloud--item">{tech}</li>;
         })}
       </ul>
     );
