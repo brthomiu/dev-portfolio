@@ -13,7 +13,6 @@
   justify-content: center;
   margin: 14rem auto;
   scroll-margin: 20rem;
-
 }
 
 .about a {
@@ -113,12 +112,12 @@
 
 .contact--button {
   padding: 1rem 1rem;
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }
 
 .contact h2 {
   font-size: 4rem;
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 2rem;
   margin: 4rem auto;
   width: 24rem;
@@ -130,7 +129,6 @@
   gap: 1rem;
   margin-bottom: 1rem;
   margin: auto;
-
 }
 
 .contact--option {
@@ -154,22 +152,22 @@
   width: 100%;
   position: fixed;
   top: 0rem;
-  background-color: rgb(255,255,255);
+  background-color: rgb(255, 255, 255);
   z-index: 100;
   height: 3%;
 }
 
-.header--left{
+.header--left {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  margin-top: .2rem;
-  margin-left: .75rem;
+  margin-top: 0.2rem;
+  margin-left: 0.75rem;
 }
 
-.header--right{
-  margin-top: .2rem;
-  margin-right: .75rem;
+.header--right {
+  margin-top: 0.2rem;
+  margin-right: 0.75rem;
 }
 
 .project {
@@ -178,7 +176,7 @@
 }
 
 .project--content {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 0.8);
   width: 45rem;
   margin: -1rem auto 4rem;
   border-radius: 2rem;
@@ -188,7 +186,7 @@
 
 .project--name {
   font-size: 2.5rem;
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 0.8);
   width: 40rem;
   margin: auto;
   max-height: 6rem;
@@ -231,7 +229,6 @@
   justify-content: center;
   align-content: center;
   scroll-margin: -4rem;
-
 }
 
 .projects--container {
@@ -256,7 +253,7 @@
 }
 
 .techCloud--item {
-  padding: 0.5rem .8rem;
+  padding: 0.5rem 0.8rem;
   border-radius: 1.5rem;
   background-color: var(--color-green);
   font-weight: 600;
@@ -285,20 +282,34 @@
     transform: scale(2, 6);
   }
 
-.project--content {
-  padding: 2rem 0;
-}
-.contact--option-icon {
-  font-size: 4rem;
-  color: var(--color-dark);
-}
-.about {
-  margin-top: 18rem;
-}
-.header--right {
-  display: none;
-}
-
-
-
+  .about {
+    width: 100%;
+    border-radius: 0rem;
+  }
+  .contact {
+    width: 90%;
+    border-radius: 2rem;
+    padding: 4rem 0rem;
+  }
+  .projects--container {
+    background-color: var(--color-dark);
+    width: 100%;
+    margin: auto;
+    padding-bottom: 1rem;
+    border-radius: 0rem;
+    margin-bottom: 18rem;
+  }
+  .project--content {
+    padding: 2rem 0;
+  }
+  .contact--option-icon {
+    font-size: 4rem;
+    color: var(--color-dark);
+  }
+  .about {
+    margin-top: 18rem;
+  }
+  .header--right {
+    display: none;
+  }
 }
