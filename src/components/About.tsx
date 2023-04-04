@@ -64,9 +64,9 @@ const About = () => {
                 like Photoshop, After Effects, and FL-Studio, and blossom into a
                 lifelong passion for digital content creation.<br></br>
                 <br></br>
-                In 2020, I endeavored to take the obsession further and plunge
+                In 2020, I endeavored to take my obsession further, and plunged
                 into the world of computer science, programming languages, and
-                software development.
+                web development.
                 <br></br>
                 <br></br>My primary focus is full-stack web development with
                 JavaScript, TypeScript, Node, and React, but I've also written
@@ -77,8 +77,8 @@ const About = () => {
                 git commits, and dozens of online courses, and I'm excited to see
                 where it takes me!
               </p>
-              <a href={"#about--body"}>
-                <button onClick={toggleShowMore}>Less</button>
+              <a onClick={toggleShowMore} href={"#about--body"}>
+                <button>Less</button>
               </a>
             </article>
           </main>

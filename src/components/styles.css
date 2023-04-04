@@ -3,9 +3,10 @@
 }
 
 .about {
-  width: 100%;
+  width: 50rem;
   margin: auto;
-  padding: 2rem 2rem 2rem 0rem;
+  padding: 2rem 0 4rem 0rem;
+  border-radius: 2rem;
   background-color: var(--color-dark);
   display: flex;
   flex-direction: column;
@@ -13,6 +14,10 @@
   margin: 14rem auto;
   scroll-margin: 20rem;
 
+}
+
+.about a {
+  margin: auto;
 }
 
 .about--circle {
@@ -45,7 +50,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 32rem;
+  max-width: 42rem;
   width: 100%;
   padding: 0 2rem;
   margin: auto;
@@ -99,8 +104,8 @@
   margin: 16rem auto;
   max-width: 64rem;
   border-radius: 2rem;
-  padding: 2rem 2rem 2rem 0rem;
-  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  background-color: var(--color-dark);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -113,6 +118,10 @@
 
 .contact h2 {
   font-size: 4rem;
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: 2rem;
+  margin: 4rem auto;
+  width: 24rem;
 }
 
 .contact--options {
@@ -169,10 +178,9 @@
 }
 
 .project--content {
-  padding: 2rem 2rem;
-  background-color: rgba(255, 255, 255, 0.7);
-  width: 48rem;
-  margin: -2rem auto 4rem;
+  background-color: rgba(255, 255, 255, .8);
+  width: 45rem;
+  margin: -1rem auto 4rem;
   border-radius: 2rem;
   border: solid 0.15rem;
   border-color: rgba(255, 255, 255, 0);
@@ -180,7 +188,7 @@
 
 .project--name {
   font-size: 2.5rem;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, .8);
   width: 40rem;
   margin: auto;
   max-height: 6rem;
@@ -207,6 +215,7 @@
 .project--link {
   padding: 1rem 2rem;
   font-size: medium;
+  margin-bottom: 1rem;
 }
 
 .project--links {
@@ -221,19 +230,20 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  scroll-margin: -14rem;
+  scroll-margin: -4rem;
 
 }
 
 .projects--container {
   background-color: var(--color-dark);
-  width: 100%;
+  width: 50rem;
   margin: auto;
   padding-bottom: 1rem;
+  border-radius: 2rem;
 }
 
 .projects--title {
-  margin-top: 18rem;
+  margin-top: 8rem;
   font-size: 4rem;
   margin-bottom: 4rem;
 }
@@ -276,9 +286,7 @@
   }
 
 .project--content {
-  width: 100%;
   padding: 2rem 0;
-  border-radius: 0;
 }
 .contact--option-icon {
   font-size: 4rem;
