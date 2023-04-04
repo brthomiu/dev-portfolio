@@ -44,7 +44,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-// Media queries to scale components thru rem
+/* Media queries to scale components thru rem */
 /* -------------- Responsive Media Queries (4k) ----------------*/
 
 @media screen and (min-width: 2564px) {

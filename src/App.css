@@ -47,7 +47,7 @@ button:not(:active) {
   transition: all 0.1s ease-in-out;
 }
 
-// Media queries to set actual font size
+/* Media queries to set actual font size */
 /* -------------- Responsive Media Queries (4k) ----------------*/
 
 @media screen and (max-width: 2564px) {
