@@ -133,7 +133,7 @@ button:not(:active) {
     font-size: 14px;
   }
   .header {
-    height: 6.5%;
+    height: 7%;
   }
   .contact {
     max-width: 50rem;
