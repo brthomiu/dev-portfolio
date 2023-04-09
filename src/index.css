@@ -50,7 +50,7 @@ body {
 
 @media screen and (min-width: 2564px) {
   :root {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 
@@ -58,7 +58,7 @@ body {
 
 @media screen and (min-width: 1924px) {
   :root {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
@@ -66,7 +66,7 @@ body {
 
 @media screen and (max-width: 1284px) {
   :root {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
@@ -74,7 +74,7 @@ body {
 
 @media screen and (max-width: 1028px) {
   :root {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
@@ -82,7 +82,7 @@ body {
 
 @media screen and (max-width: 800px) {
   :root {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
@@ -90,6 +90,6 @@ body {
 
 @media screen and (max-width: 600px) {
   :root {
-    font-size: 8px;
+    font-size: 7px;
   }
 }

@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <nav id="header" className="header">
+    <nav className="header">
       <div className="header--left">
         <a href={"#about"}>About</a>
         <a href={"#projects"}>Projects</a>

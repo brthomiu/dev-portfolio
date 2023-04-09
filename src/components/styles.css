@@ -182,17 +182,18 @@
   border-radius: 2rem;
   border: solid 0.15rem;
   border-color: rgba(255, 255, 255, 0);
+  padding: 1rem;
 }
 
 .project--name {
   font-size: 2.5rem;
   background-color: rgba(255, 255, 255, 0.8);
-  width: 40rem;
   margin: auto;
   max-height: 6rem;
   border-radius: 2rem;
   border: solid 0.15rem;
   border-color: rgba(0, 0, 0, 0);
+  padding: 0 2rem;
 }
 
 .project--name-container {
@@ -213,7 +214,7 @@
 .project--link {
   padding: 1rem 2rem;
   font-size: medium;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .project--links {
@@ -250,6 +251,7 @@
   justify-content: center;
   gap: 1rem;
   margin-bottom: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .techCloud--item {
@@ -291,6 +293,11 @@
     border-radius: 2rem;
     padding: 4rem 0rem;
   }
+
+  .projects {
+    scroll-margin: 0rem;
+  }
+
   .projects--container {
     background-color: var(--color-dark);
     width: 100%;
@@ -300,16 +307,32 @@
     margin-bottom: 18rem;
   }
   .project--content {
-    padding: 2rem 0;
+    padding: 2rem 2rem;
+    width: 45rem;
   }
+
   .contact--option-icon {
     font-size: 4rem;
     color: var(--color-dark);
   }
   .about {
-    margin-top: 18rem;
+    margin-top: 28rem;
   }
   .header--right {
     display: none;
+  }
+  .header {
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+  }
+  .header--left {
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    font-size: larger;
+    flex-direction: row;
+    width: 100$;
+    margin: 2rem 0rem;
   }
 }
