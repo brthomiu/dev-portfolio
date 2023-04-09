@@ -248,7 +248,7 @@
 .techCloud {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   margin-bottom: 1.5rem;
 }
 
@@ -267,7 +267,7 @@
 
 .techCloud--item:hover {
   border: 0.1rem solid;
-  border-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.1);
 }
 
 .techCloud--item:not(:hover) {

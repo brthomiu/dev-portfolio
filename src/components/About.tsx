@@ -29,7 +29,7 @@ const About = () => {
                 />
               </div>
               <p id="about--body">
-                Whether writing code, designing webapps, or creating content,
+                Whether writing code, building applications, or designing content,
                 I'm passionate about using technology to turn dreams into
                 reality.
               </p>
