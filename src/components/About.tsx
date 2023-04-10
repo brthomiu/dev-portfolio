@@ -66,11 +66,11 @@ const About = () => {
                 <br></br>
                 In 2020, I endeavored to take my passion further, and plunged
                 into the world of computer science, programming languages, and
-                web development.
+                software development.
                 <br></br>
                 <br></br>My primary focus is full-stack web development with
-                JavaScript, TypeScript, Node, and React, but I've also written
-                code with Python and Java and played with other
+                JavaScript, TypeScript, React, and Node, but I've also dabbled 
+                with Python and Java, and played with other
                 frameworks like Vue and Svelte.
                 <br></br> <br></br>
                 My journey so far has spanned thousands of hours, hundreds of
