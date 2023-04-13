@@ -7,9 +7,9 @@ import movie2 from "../assets/movieImage2.png";
 import movie3 from "../assets/movieImage3.png";
 import calculon1 from "../assets/calculonImage1.png";
 import calculonGif from "../assets/calculonGif.gif";
-import ston1 from "../assets/stonImageSmall1.png";
+import ston1 from "../assets/newStonGif.gif";
 import ston2 from "../assets/stonImageSmall2.png";
-import ston3 from "../assets/stonImageSmall3.png";
+import ston3 from "../assets/mobileStonGif.gif";
 
 const projectData: Array<ProjectType> = [
   {
